@@ -1,3 +1,4 @@
+// omarchy-restart-waybar to see changes
 {
   "reload_style_on_change": true,
   "layer": "top",
@@ -11,13 +12,16 @@
   "modules-center": [
     "clock",
     "custom/update"
+    // "hyprland/language"
   ],
   "modules-right": [
-    "group/tray-expander",
+    // "group/tray-expander",
+    "cpu",
+    "memory",
+    "tray",
     "bluetooth",
     "network",
     "pulseaudio",
-    "cpu",
     "battery"
   ],
   "hyprland/workspaces": {
@@ -47,7 +51,7 @@
   "custom/omarchy": {
     "format": "",
     "on-click": "omarchy-menu",
-    "tooltip-format": "Omarchy Menu\n\nSuper + Alt + Space"
+    "tooltip-format": "SUPER + ALT + SPACE"
   },
   "custom/update": {
     "format": "",
@@ -58,11 +62,17 @@
   },
   "cpu": {
     "interval": 5,
-    "format": "󰍛",
+    "format": "{usage:2}%", // ({load:0.2f})
     "on-click": "alacritty -e btop"
   },
+  "memory": {
+    "interval": 5,
+    "format": "{used:0.1f}/{total:0.1f} ", //  {percentage}%
+    "on-click": "alacritty -e btop",
+    "tooltip-format": "swap: {swapUsed:0.1f}G/{swapTotal:0.1f}G",
+  },
   "clock": {
-    "format": "{:%A %H:%M}",
+    "format": "{:%d %A %H:%M}",
     "format-alt": "{:%d %B W%V %Y}",
     "tooltip": false,
     "on-click-right": "omarchy-cmd-tzupdate"
@@ -81,10 +91,10 @@
     "on-click": "alacritty --class=Impala -e impala"
   },
   "battery": {
-    "format": "{capacity}% {icon}",
-    "format-discharging": "{icon}",
-    "format-charging":    "{icon}",
-    "format-plugged":     "",
+    "format": "{icon} {capacity}%",
+    "format-discharging": "{icon} {capacity}%",
+    "format-charging": "{icon} {capacity}%",
+    "format-plugged": "",
     "format-icons": {
       "charging": [
         "󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"
@@ -110,7 +120,7 @@
     "on-click": "blueberry"
   },
   "pulseaudio": {
-    "format": "{icon}",
+    "format": "{icon} {volume}%",
     "on-click": "alacritty --class=Wiremix -e wiremix",
     "on-click-right": "pamixer -t",
     "tooltip-format": "Playing at {volume}%",
@@ -120,23 +130,27 @@
       "default": ["", "", ""]
     }
   },
-  "group/tray-expander": {
-    "orientation": "inherit",
-    "drawer": {
-      "transition-duration": 600,
-      "children-class": "tray-group-item"
-    },
-    "modules": [
-      "custom/expand-icon",
-    "tray"
-    ]
-  },
-  "custom/expand-icon": {
-    "format": " ",
-    "tooltip": false
-  },
+  // "group/tray-expander": {
+  //   "orientation": "inherit",
+  //   "drawer": {
+  //     "transition-duration": 600,
+  //     "children-class": "tray-group-item"
+  //   },
+  //   "modules": [
+  //     "custom/expand-icon",
+  //   "tray"
+  //   ]
+  // },
+  // "custom/expand-icon": {
+  //   "format": " ",
+  //   "tooltip": false
+  // },
   "tray": {
     "icon-size": 12,
     "spacing": 12
   }
+  // "hyprland/language": {
+  //   "format": "{short}",
+  //   "tooltip": false
+  // }
 }

@@ -2,9 +2,7 @@
 
 1. Install with `curl -fsSL https://raw.githubusercontent.com/jacob-8/omarchy/refs/heads/master/boot.sh | bash`
 
-2. Setup later:
-    - git config
-
+2. Setup later: git config
 
 ------
 

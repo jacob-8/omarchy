@@ -19,7 +19,7 @@ sudo pacman -Sy --noconfirm --needed git
 # Use custom repo if specified, otherwise default to basecamp/omarchy (now is jacob-8/omarchy)
 OMARCHY_REPO="${OMARCHY_REPO:-jacob-8/omarchy}"
 
-echo -e "\nCloning Omarchy from: https://github.com/${OMARCHY_REPO}.git"
+echo -e "\nCloning Poly Omarchy from: https://github.com/${OMARCHY_REPO}.git"
 rm -rf ~/.local/share/omarchy/
 git clone "https://github.com/${OMARCHY_REPO}.git" ~/.local/share/omarchy >/dev/null
 

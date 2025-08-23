@@ -16,7 +16,7 @@ echo -e "\n$ansi_art\n"
 
 sudo pacman -Sy --noconfirm --needed git
 
-# Use custom repo if specified, otherwise default to basecamp/omarchy
+# Use custom repo if specified, otherwise default to basecamp/omarchy (now is jacob-8/omarchy)
 OMARCHY_REPO="${OMARCHY_REPO:-jacob-8/omarchy}"
 
 echo -e "\nCloning Omarchy from: https://github.com/${OMARCHY_REPO}.git"

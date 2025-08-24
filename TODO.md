@@ -5,9 +5,6 @@ Pinyin notes
 
 - Add TMUX to terminal
 - Harpoon
-
-
-# Crush
-Install with `yay -S crush-bin` and run `crush` from the terminal.
-Add providers: https://github.com/charmbracelet/crush
+- tmux-sessionizer
+- crush local usage, run `crush`, add providers: https://github.com/charmbracelet/crush
 

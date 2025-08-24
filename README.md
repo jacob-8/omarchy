@@ -4,6 +4,8 @@
 
 2. Setup config
 
+3. Add pinyin by right clicking menu item and restarting fcitx, then adding pinyin.
+
 ------
 
 Turn a fresh Arch installation into a fully-configured, beautiful, and modern web development system based on Hyprland by running a single command. Read more at [omarchy.org](https://omarchy.org).

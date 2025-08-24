@@ -2,13 +2,16 @@
 
 1. Install with `curl -fsSL https://raw.githubusercontent.com/jacob-8/omarchy/refs/heads/master/boot.sh | bash`
 
-2. Setup later: git config
+2. Setup config
 
 ------
 
-Turn a fresh Arch installation into a fully-configured, beautiful, and modern web development system based on Hyprland by running a single command. That's the one-line pitch for Omarchy (like it was for Omakub). No need to write bespoke configs for every essential tool just to get started or to be up on all the latest command-line tools. Omarchy is an opinionated take on what Linux can be at its best.
+Turn a fresh Arch installation into a fully-configured, beautiful, and modern web development system based on Hyprland by running a single command. Read more at [omarchy.org](https://omarchy.org).
 
-Read more at [omarchy.org](https://omarchy.org).
+This version modifies Omarchy:
+- removes 1password, Ruby, Apple display controls, webapps from menu, Signal, Obsidian, Spotify, XCompose 
+- adds Node, PNPM, VSCode, Pinyin input, LM Studio, Slack
+- adjusts some keybindings and other settings to my preference
 
 ## License
 

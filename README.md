@@ -1,10 +1,14 @@
 # Omarchy
 
-1. Install with `curl -fsSL https://raw.githubusercontent.com/jacob-8/omarchy/refs/heads/master/boot.sh | bash`
+1. Install Arch
 
-2. Setup config
+2. Connect to Wi-Fi: iwctl, station wlan0 scan, station wlan0 get-networks, station wlan0 connect "SSID", enter password, station wlan0 show
 
-3. Add pinyin by right clicking menu item and restarting fcitx, then adding pinyin.
+3. Install this Omarchy with `curl -fsSL https://raw.githubusercontent.com/jacob-8/omarchy/refs/heads/master/boot.sh | bash`
+
+4. Copy config
+
+5. Add pinyin by right clicking menu item and restarting fcitx, then adding pinyin.
 
 ------
 

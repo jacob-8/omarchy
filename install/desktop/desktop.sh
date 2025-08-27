@@ -14,3 +14,7 @@ if lspci | grep -qi 'nvidia'; then
 else
   yay -S --noconfirm --needed wl-screenrec
 fi
+
+# Astril
+yay -S --noconfirm --needed \
+  gtk2 gtk-engines astril

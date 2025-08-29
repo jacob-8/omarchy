@@ -1,14 +1,16 @@
 # Omarchy
 
-1. Install Arch
+1. Boot into a flash drive with Arch ISO.
 
-2. Connect to Wi-Fi: iwctl, station wlan0 scan, station wlan0 get-networks, station wlan0 connect "SSID", enter password, station wlan0 show
+2. Connect to Wi-Fi: iwctl, station wlan0 scan, station wlan0 get-networks, station wlan0 connect "SSID", enter password, station wlan0 show, exit
 
-3. Install this Omarchy with `curl -fsSL https://raw.githubusercontent.com/jacob-8/omarchy/refs/heads/master/boot.sh | bash`
+3. archinstall, disk configuration, btrfs, default structure, compression, disk encryption, LUKS, password, select partition with space, hostname, authentication (root password, user with pass), applications > Bluetooth yes, audio = pipewire, network copy over, timezone.
 
-4. Copy config
+4. Install this Omarchy with `curl -fsSL https://raw.githubusercontent.com/jacob-8/omarchy/refs/heads/master/boot.sh | bash`
 
 5. Add pinyin by right clicking menu item and restarting fcitx, then adding pinyin.
+
+Then adjust configs to liking.
 
 ------
 

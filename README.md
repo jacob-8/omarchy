@@ -6,7 +6,7 @@
 
 3. archinstall, disk configuration, btrfs, default structure, compression, disk encryption, LUKS, password, select partition with space, hostname, authentication (root password, user with pass), applications > Bluetooth yes, audio = pipewire, network copy over, timezone.
 
-4. Install this Omarchy with `curl -fsSL https://raw.githubusercontent.com/jacob-8/omarchy/refs/heads/master/boot.sh | bash`
+4. Reboot, login with user name and pass, then install this Omarchy 1 fork with `curl -fsSL https://raw.githubusercontent.com/jacob-8/omarchy/refs/heads/master/boot.sh | bash`
 
 5. Add pinyin by right clicking menu item and restarting fcitx, then adding pinyin.
 

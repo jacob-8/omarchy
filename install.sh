@@ -64,7 +64,7 @@ source $OMARCHY_INSTALL/desktop/theme.sh
 source $OMARCHY_INSTALL/desktop/bluetooth.sh
 source $OMARCHY_INSTALL/desktop/fonts.sh
 source $OMARCHY_INSTALL/desktop/printer.sh
-source $OMARCHY_INSTALL/desktop/v2raya.sh
+# source $OMARCHY_INSTALL/desktop/v2raya.sh
 
 # Apps
 show_logo expand

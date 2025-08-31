@@ -4,7 +4,7 @@
 
 2. Connect to Wi-Fi: iwctl, station wlan0 scan, station wlan0 get-networks, station wlan0 connect "SSID", enter password, station wlan0 show, exit
 
-3. archinstall, mirror:select region, disk configuration, btrfs, default structure, compression, disk encryption, LUKS, password, select partition with space, hostname, bootloader=Limine authentication (root password, user with pass), applications > Bluetooth yes, audio = pipewire, network copy over, timezone. (refer to https://learn.omacom.io/2/the-omarchy-manual/96/manual-installation for more details)
+3. archinstall, mirror:select region, disk configuration, btrfs, default structure, compression, disk encryption, LUKS, password, select partition with space, bootloader=Limine, hostname, authentication (root password, user with pass), applications > Bluetooth yes, audio = pipewire, network copy over, timezone. (refer to https://learn.omacom.io/2/the-omarchy-manual/96/manual-installation for more details)
 
 4. Reboot, login with user name and pass, then install this Omarchy 1 fork with `curl -fsSL https://raw.githubusercontent.com/jacob-8/omarchy/refs/heads/master/boot.sh | bash`
 

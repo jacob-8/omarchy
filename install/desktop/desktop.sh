@@ -6,9 +6,8 @@ yay -S --noconfirm --needed \
   nautilus sushi ffmpegthumbnailer gvfs-mtp \
   slurp satty \
   mpv evince imv \
-  google-chrome slack-desktop
-
-# fcitx5-chinese-addons fcitx5-configtool (I need to add but causes install issue)
+  google-chrome 
+  # fcitx5-chinese-addons fcitx5-configtool (I need to add but causes install issue)
 
 # Add screen recorder based on GPU
 if lspci | grep -qi 'nvidia'; then

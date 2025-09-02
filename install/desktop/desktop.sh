@@ -18,6 +18,6 @@ else
   yay -S --noconfirm --needed wl-screenrec
 fi
 
-# Astril
+# Astrill
 yay -S --noconfirm --needed \
-  gtk2 gtk-engines astril
+  gtk2 gtk-engines astrill

@@ -14,3 +14,6 @@ if ! grep -q '^CreateRemotePrinters Yes' /etc/cups/cups-browsed.conf; then
 fi
 
 sudo systemctl enable --now cups-browsed.service
+
+# My HP printer
+sudo pacman -S --noconfirm hplip usbutils python-pyqt5

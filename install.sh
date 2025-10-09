@@ -31,7 +31,6 @@ show_subtext() {
 source $OMARCHY_INSTALL/preflight/guard.sh
 source $OMARCHY_INSTALL/preflight/aur.sh
 source $OMARCHY_INSTALL/preflight/presentation.sh
-source $OMARCHY_INSTALL/preflight/migrations.sh
 
 # Configuration
 show_logo beams 240

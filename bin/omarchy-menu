@@ -35,7 +35,7 @@ edit_in_nvim() {
 }
 
 open_web() {
-  setsid google-chrome --new-window --app="$1" &
+  setsid google-chrome-stable --new-window --app="$1" &
 }
 
 install() {
@@ -116,8 +116,7 @@ show_screenrecord_menu() {
 }
 
 show_toggle_menu() {
-  case $(menu "Toggle" "󱄄  Screensaver\n󰔎  Nightlight\n󱫖  Idle Lock\n󰍜  Top Bar") in
-  *Screensaver*) omarchy-launch-screensaver ;;
+  case $(menu "Toggle" "󰔎  Nightlight\n󱫖  Idle Lock\n󰍜  Top Bar") in
   *Nightlight*) omarchy-toggle-nightlight ;;
   *Idle*) omarchy-toggle-idle ;;
   *Bar*) pkill -SIGUSR1 waybar ;;

@@ -1,5 +1,6 @@
 // omarchy-restart-waybar to see changes
 {
+  "output": ["eDP-2"],
   "reload_style_on_change": true,
   "layer": "top",
   "position": "top",

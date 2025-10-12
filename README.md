@@ -1,8 +1,22 @@
 # Omarchy
 
-Turn a fresh Arch installation into a fully-configured, beautiful, and modern web development system based on Hyprland by running a single command. That's the one-line pitch for Omarchy (like it was for Omakub). No need to write bespoke configs for every essential tool just to get started or to be up on all the latest command-line tools. Omarchy is an opinionated take on what Linux can be at its best.
+1. Boot into a flash drive with Arch ISO.
 
-Read more at [omarchy.org](https://omarchy.org).
+2. Connect to Wi-Fi: iwctl, station wlan0 scan, station wlan0 get-networks, station wlan0 connect "SSID", enter password, station wlan0 show, exit
+
+3. archinstall, mirror:select region, disk configuration, btrfs, default structure, compression, disk encryption, LUKS, password, select partition with space, bootloader=Limine, hostname, authentication (root password, user with pass), applications > Bluetooth yes, audio = pipewire, network copy over, timezone. (refer to https://learn.omacom.io/2/the-omarchy-manual/96/manual-installation for more details)
+
+4. Reboot, login with user name and pass, then install this Omarchy 1 fork with `curl -fsSL https://raw.githubusercontent.com/jacob-8/omarchy/refs/heads/master/boot.sh | bash`
+
+5. Add pinyin by running `yay -S --noconfirm --needed fcitx5-chinese-addons fcitx-configtool`, right clicking keyboard menu item and restarting fcitx, then adding pinyin.
+
+Then adjust configs to liking.
+
+------
+
+Turn a fresh Arch installation into a fully-configured, beautiful, and modern web development system based on Hyprland by running a single command. Read more at [omarchy.org](https://omarchy.org).
+
+This version modifies Omarchy by removing packages I don't use, Apple display controls, webapps from menu, adds Node, PNPM, VSCode, LM Studio, HP printer, and other packages I use. It also adjusts some keybindings and other settings to my preference.
 
 ## License
 

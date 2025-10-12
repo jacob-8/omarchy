@@ -72,3 +72,15 @@ tooltip {
 #custom-screenrecording-indicator.active {
   color: #a55555;
 }
+
+#cpu {
+  color: rgba(191, 191, 64, 0.6);
+}
+
+#battery {
+  color: lightgreen;
+}
+
+#memory {
+  opacity: .4;
+}

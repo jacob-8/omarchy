@@ -122,3 +122,18 @@ xournalpp
 yaru-icon-theme
 yay
 zoxide
+
+# Custom added
+lmstudio
+visual-studio-code-bin
+tmux
+
+# Astrill
+gtk2
+gtk-engines
+Astril
+
+# HP printer
+hplip
+usbutils 
+python-pyqt5

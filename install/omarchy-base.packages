@@ -129,11 +129,11 @@ visual-studio-code-bin
 tmux
 
 # Astrill
-gtk2
-gtk-engines
-astrill
+# gtk2
+# gtk-engines
+# astrill
 
 # HP printer
-hplip
-usbutils 
-python-pyqt5
+# hplip
+# usbutils 
+# python-pyqt5
